@@ -5,3 +5,4 @@ Followed this tutorial to get the LEDs working: https://learn.pimoroni.com/artic
 
 Editor used: Thonny
 Running MicroPython (for now at least)
+
