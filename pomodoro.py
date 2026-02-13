@@ -1,5 +1,4 @@
 import plasma
-import machine
 import utime
 from pimoroni import RGBLED, Button
 
@@ -7,8 +6,8 @@ from pimoroni import RGBLED, Button
 NUM_LEDS = 50
 
 # Timer lengths in minutes
-#WORK_MINS = 25
-#BREAK_MINS = 5
+WORK_SECS = 25*60
+BREAK_SECS = 5*60
 
 # Colors (Hue, Saturation, Value)
 # Hue between 0.0 - 1.0 (0 = green, 0.33 = red, 0.66 = blue) (Green and red are "wrong way round" in my LEDs)
